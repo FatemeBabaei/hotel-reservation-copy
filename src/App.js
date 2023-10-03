@@ -1,6 +1,10 @@
 import "./App.css";
-import { Navbar } from "./components/hotelReservation/navbar";
+import Home from "./components/hotelReservation/home/home";
 
 export default function App() {
-  return <Navbar />;
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
