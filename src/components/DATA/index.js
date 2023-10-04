@@ -1,3 +1,3 @@
-import countresInformation from "./countresInformation.json";
+import CountresInformation from "./countresInformation.json";
 
-export { countresInformation };
+export { CountresInformation };

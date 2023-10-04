@@ -1,4 +1,4 @@
-export default function Navbar() {
+export default function Navbar({ value, onChange }) {
   return (
     <div className="nav">
       <div className="container">
@@ -16,8 +16,11 @@ export default function Navbar() {
         </div>
         <div style={{ height: "50px" }}>
           <input
+            type="text"
+            value={value}
+            onChange={onChange}
             className="h-100 w-100 border border-warning "
-            placeholder="Search..."
+            placeholder="where are you?"
           />
         </div>
       </div>
