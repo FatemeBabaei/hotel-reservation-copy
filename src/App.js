@@ -1,10 +1,10 @@
 import "./App.css";
-import Home from "./components/hotelReservation/home/home";
+import { Login } from "./components/hotelReservation/login";
 
 export default function App() {
   return (
     <div>
-      <Home />
+      <Login />
     </div>
   );
 }
