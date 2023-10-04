@@ -1,0 +1,86 @@
+[
+    {
+        "Name": "Chatva Hotel",
+        "star":4,
+        "url":"hotelsImage/swissHotel/ChatvaSwiss.webp",
+        "Id": 1
+    },
+    {
+        "Name": "Palace Hotel",
+        "star":5,
+        "url":"hotelsImage/swissHotel/PalaceSwiss.webp",
+        "Id": 2
+    },
+    {
+        "Name": "Rosewood Hotel",
+        "star":5,
+        "url":"hotelsImage/englandHotel/RosewoodEngland.webp",
+        "Id": 3
+    },
+    {
+        "Name": "Savoy Hotel",
+        "star":5,
+        "url":"hotelsImage/englandHotel/SavoyEngland.webp",
+        "Id": 4
+    },
+    {
+        "Name": "Conrad Hotel",
+        "star":4,
+        "url":"hotelsImage/chinaHotel/ConradChina.webp",
+        "Id": 5
+    },
+    {
+        "Name": "Shangir-La Hotel",
+        "star":4,
+        "url":"hotelsImage/chinaHotel/Shangri-LaChina.webp",
+        "Id": 6
+    },
+    {
+        "Name": "Raffles Hotel",
+        "star":4,
+        "url":"hotelsImage/turkeyHotel/RafflesTurkey.webp",
+        "Id": 7
+    },
+    {
+        "Name": "Divan Hotel ",
+        "star":5,
+        "url":"hotelsImage/turkeyHotel/DivanTurkey.webp",
+        "Id": 8
+    },
+    {
+        "Name": "four Seasons Hotel",
+        "star":4,
+        "url":"hotelsImage/parisHotel/fourSeasonsParis.webp",
+        "Id":9
+    },
+    {
+        "Name": "Bristol Hotel",
+        "star":4,
+        "url":"hotelsImage/parisHotel/BristolParis.jpg",
+        "Id": 10
+    },
+    {
+        "Name": "Taj Mahal Hotel",
+        "star":5,
+        "url":"hotelsImage/indiaHotel/TajMahalIndia.webp",
+        "Id": 11
+    },
+    {
+        "Name": "Oberoi Hotel",
+        "star":4,
+        "url":"hotelsImage/indiaHotel/OberoiIndia.jpg",
+        "Id": 12
+    },
+    {
+        "Name": "Vilon Hotel",
+        "star":4,
+        "url":"hotelsImage/romeHotel/VilonRome.jpg",
+        "Id": 13
+    },
+    {
+        "Name": "Eden Hotel",
+        "star":4,
+        "url":"hotelsImage/romeHotel/EdenRome.webp",
+        "Id": 14
+    }
+]  

@@ -1,10 +1,10 @@
 import "./App.css";
-import { Calendar } from "./components/hotelReservation/datePicker";
+import { ListOfHotels } from "./components/hotelReservation/hotel";
 
 export default function App() {
   return (
     <div>
-      <Calendar />
+      <ListOfHotels />
     </div>
   );
 }
