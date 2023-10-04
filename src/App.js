@@ -1,10 +1,10 @@
 import "./App.css";
-import { Login } from "./components/hotelReservation/login";
+import { Calendar } from "./components/hotelReservation/datePicker";
 
 export default function App() {
   return (
     <div>
-      <Login />
+      <Calendar />
     </div>
   );
 }
