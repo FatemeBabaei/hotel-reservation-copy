@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Login() {
+  const navigate = useNavigate();
   return (
     <div>
       <nav className="nav">
@@ -27,7 +30,10 @@ export default function Login() {
 
         <div className="row d-flex justify-content-center">
           <div className="col-lg-4 my-4">
-            <button className="btn btn-primary col-12 col-lg-10 h-100">
+            <button
+              className="btn btn-primary col-12 col-lg-10 h-100"
+              onClick={() => navigate("/home")}
+            >
               Continue with email
             </button>
           </div>

@@ -10,6 +10,7 @@ export default function GroupOfCards({ CountresInformation }) {
             url={item.Url}
             name={item.Name}
             description={item.Description}
+            Id={item.Id}
           />
         );
       })}

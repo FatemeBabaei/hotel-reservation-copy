@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Calendar } from "../datePicker/";
+import { useState } from "react";
 
 export default function Reserv() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [room, setRoom] = useState(1);
   const [person, setPerson] = useState(1);
+  const navigate = useNavigate();
 
   {
     person < 1 && setPerson(person + 1);
@@ -13,6 +15,11 @@ export default function Reserv() {
 
   {
     room < 1 && setRoom(room + 1);
+  }
+
+  function handleSave() {
+    alert("Your hotel reservation has been successfully registered");
+    navigate("/home");
   }
 
   return (
@@ -84,7 +91,12 @@ export default function Reserv() {
           <Calendar />
         </div>
         <div className="d-flex justify-content-center">
-          <button className="btn btn-outline-primary w-25 my-5">Save</button>
+          <button
+            className="btn btn-outline-primary w-25 my-5"
+            onClick={handleSave}
+          >
+            Save
+          </button>
         </div>
       </div>
     </div>

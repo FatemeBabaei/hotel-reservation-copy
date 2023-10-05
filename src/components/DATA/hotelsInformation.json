@@ -3,84 +3,98 @@
         "Name": "Chatva Hotel",
         "star":4,
         "url":"hotelsImage/swissHotel/ChatvaSwiss.webp",
-        "Id": 1
+        "Id": 1,
+        "countryId": 1 
     },
     {
         "Name": "Palace Hotel",
         "star":5,
         "url":"hotelsImage/swissHotel/PalaceSwiss.webp",
-        "Id": 2
+        "Id": 2,
+        "countryId": 1 
     },
     {
         "Name": "Rosewood Hotel",
         "star":5,
         "url":"hotelsImage/englandHotel/RosewoodEngland.webp",
-        "Id": 3
+        "Id": 3,
+        "countryId": 2
     },
     {
         "Name": "Savoy Hotel",
         "star":5,
         "url":"hotelsImage/englandHotel/SavoyEngland.webp",
-        "Id": 4
+        "Id": 4,
+        "countryId": 2
     },
     {
         "Name": "Conrad Hotel",
         "star":4,
         "url":"hotelsImage/chinaHotel/ConradChina.webp",
-        "Id": 5
+        "Id": 5,
+        "countryId": 3 
     },
     {
         "Name": "Shangir-La Hotel",
         "star":4,
         "url":"hotelsImage/chinaHotel/Shangri-LaChina.webp",
-        "Id": 6
+        "Id": 6,
+        "countryId": 3 
     },
     {
         "Name": "Raffles Hotel",
         "star":4,
         "url":"hotelsImage/turkeyHotel/RafflesTurkey.webp",
-        "Id": 7
+        "Id": 7,
+        "countryId": 4 
     },
     {
         "Name": "Divan Hotel ",
         "star":5,
         "url":"hotelsImage/turkeyHotel/DivanTurkey.webp",
-        "Id": 8
+        "Id": 8,
+        "countryId": 4 
     },
     {
         "Name": "four Seasons Hotel",
         "star":4,
         "url":"hotelsImage/parisHotel/fourSeasonsParis.webp",
-        "Id":9
+        "Id":9,
+        "countryId": 5  
     },
     {
         "Name": "Bristol Hotel",
         "star":4,
         "url":"hotelsImage/parisHotel/BristolParis.jpg",
-        "Id": 10
+        "Id": 10,
+        "countryId": 5 
     },
     {
         "Name": "Taj Mahal Hotel",
         "star":5,
         "url":"hotelsImage/indiaHotel/TajMahalIndia.webp",
-        "Id": 11
+        "Id": 11,
+        "countryId": 6 
     },
     {
         "Name": "Oberoi Hotel",
         "star":4,
         "url":"hotelsImage/indiaHotel/OberoiIndia.jpg",
-        "Id": 12
+        "Id": 12,
+        "countryId": 6 
     },
     {
         "Name": "Vilon Hotel",
         "star":4,
         "url":"hotelsImage/romeHotel/VilonRome.jpg",
-        "Id": 13
+        "Id": 13,
+        "countryId": 7 
     },
     {
         "Name": "Eden Hotel",
         "star":4,
         "url":"hotelsImage/romeHotel/EdenRome.webp",
-        "Id": 14
+        "Id": 14,
+        "countryId": 7 
     }
 ]  
