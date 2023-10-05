@@ -1,10 +1,10 @@
 import "./App.css";
-import { ListOfHotels } from "./components/hotelReservation/hotel";
+import { Reserv } from "./components/hotelReservation/reserv";
 
 export default function App() {
   return (
     <div>
-      <ListOfHotels />
+      <Reserv />
     </div>
   );
 }
