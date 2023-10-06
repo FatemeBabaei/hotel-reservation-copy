@@ -9,12 +9,7 @@ export default function Navbar({ value, onChange }) {
         <div className="row pt-4">
           <label className="col-9 text-white fw-semibold">Booking.com</label>
           <div className="col-3 d-flex justify-content-end">
-            <button
-              className="btn btn-light"
-              onClick={() => navigate("/login")}
-            >
-              Login
-            </button>
+            <button className="btn btn-light" onClick={() => navigate("/login")} >Login</button>
           </div>
         </div>
         <div className="row">
@@ -24,13 +19,7 @@ export default function Navbar({ value, onChange }) {
           </p>
         </div>
         <div style={{ height: "50px" }}>
-          <input
-            type="text"
-            value={value}
-            onChange={onChange}
-            className="h-100 w-100 border border-warning "
-            placeholder="where are you?"
-          />
+          <input type="text" value={value} onChange={onChange} className="h-100 w-100 border border-warning" placeholder="where are you?" />
         </div>
       </div>
     </div>

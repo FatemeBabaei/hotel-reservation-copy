@@ -14,10 +14,7 @@ export default function HotelsCard({ url, name, star }) {
               <h5 className="card-title">{name}</h5>
               <p className="card-text">{`star: ${star}`}</p>
               <br />
-              <button
-                className="btn bg-primary border-0 text-white"
-                onClick={() => navigate("/reserv")}
-              >
+              <button className="btn bg-primary border-0 text-white" onClick={() => navigate("/reserv")} >
                 reserv
               </button>
             </div>

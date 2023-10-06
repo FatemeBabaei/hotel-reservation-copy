@@ -18,6 +18,7 @@ export default function Login() {
       <nav className="nav">
         <h4 className="container text-white fw-semibold">booking.com</h4>
       </nav>
+
       <div className="container my-5">
         <div className="row d-flex justify-content-center">
           <div className="col-12 col-lg-4 mt-5">
@@ -31,27 +32,19 @@ export default function Login() {
         </div>
         <div className="row d-flex justify-content-center">
           <div className="col-lg-4 mt-5">
-            <input
-              type="email"
-              value={keyword}
-              onChange={(e) => setKeyword(e.target.value)}
-              className="col-12 col-lg-10 h-100"
-              placeholder="babaeeii.fateme@gmail.com"
-            />
+            <input type="email" value={keyword} onChange={(e) => setKeyword(e.target.value)} className="col-12 col-lg-10 h-100" placeholder="babaeeii.fateme@gmail.com" />
           </div>
         </div>
 
         <div className="row d-flex justify-content-center">
           <div className="col-lg-4 my-4">
-            <button
-              className="btn btn-primary col-12 col-lg-10 h-100"
-              onClick={handleLoginButton}
-            >
+            <button className="btn btn-primary col-12 col-lg-10 h-100" onClick={handleLoginButton} >
               Continue with email
             </button>
           </div>
         </div>
       </div>
+
     </div>
   );
 }
