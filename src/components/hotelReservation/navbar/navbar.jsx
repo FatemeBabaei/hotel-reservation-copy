@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export default function Navbar({ value, onChange }) {
+export default function Navbar({ onkeydown }) {
   const navigate = useNavigate();
 
   return (
@@ -18,8 +18,13 @@ export default function Navbar({ value, onChange }) {
             Search deals on hotels, homes, and much more...
           </p>
         </div>
-        <div style={{ height: "50px" }}>
-          <input type="text" value={value} onChange={onChange} className="h-100 w-100 border border-warning" placeholder="where are you?" />
+        <div className="mb-3 mb-md-5" style={{ height: "50px" }}>
+          <input 
+            type="text" 
+            onKeyDown={onkeydown} 
+            placeholder="where are you?"
+            className="h-100 w-100 border border-warning rounded-pill p-3" 
+             />
         </div>
       </div>
     </div>

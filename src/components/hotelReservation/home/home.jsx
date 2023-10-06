@@ -5,17 +5,24 @@ import { CountresInformation } from "../../DATA";
 
 export default function Home() {
   const [keyword, setKeyword] = useState("");
+  const [countres, setCountres] = useState(CountresInformation);
 
-  const search = CountresInformation.filter((item) => {
-    return item.Name.toLowerCase().includes(keyword.toLowerCase());
-  });
+  function handleOnKeyDown (e) {
+    setKeyword(e.target.value);
+    if(e.key === "Enter") {
+      const search = CountresInformation.filter((item) => {
+        return item.Name.toLowerCase().includes(keyword.toLowerCase());
+      })
+      setCountres(search);
+    }
+  }
 
   return (
     <div>
-      <Navbar value={keyword} onChange={(e) => setKeyword(e.target.value)} />
+      <Navbar onkeydown={handleOnKeyDown} />
       <div className="container">
         <h1 className="fw-semibold my-5">Travel around the world</h1>
-        <GroupOfCards CountresInformation={search} />
+        <GroupOfCards CountresInformation={countres} />
       </div>
     </div>
   );
